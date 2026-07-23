@@ -6,7 +6,6 @@ use ratatui::{
 };
 
 use crate::app::App;
-use crate::filesystem;
 
 pub fn render(frame: &mut Frame, app: &App) {
     let chunks = Layout::default()
